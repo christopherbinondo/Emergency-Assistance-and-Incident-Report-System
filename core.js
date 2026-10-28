@@ -227,7 +227,7 @@ const tagU = r => (r.urgent ? '<span class="tag"><i data-lucide="alert-triangle"
   const wrapper = document.createElement('div');
   wrapper.className = 'theme-switch-wrapper';
   wrapper.innerHTML = `
-    <label class="theme-switch" title="Toggle Dark Mode">
+    <label class="theme-switch">
       <input type="checkbox" id="themeCheckbox" ${root.getAttribute('data-theme') === 'dark' ? 'checked' : ''}>
       <span class="slider">
         <i data-lucide="moon" class="icon moon"></i>
